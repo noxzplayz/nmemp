@@ -33,7 +33,7 @@ h2 {
 }
 .button-container {
   display: flex;
-  gap: 2rem;
+  gap: 3.5rem;
 }
 button {
   background-color: #4b0082;
