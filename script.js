@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const billingButton = document.querySelector('button:contains("Billing Portal")') || document.querySelectorAll('button')[1];
+  const billingButton = document.getElementById('billing-button');
   const billingForm = document.getElementById('billing-form');
   const closeBilling = document.getElementById('close-billing');
   const submitBilling = document.getElementById('submit-billing');
